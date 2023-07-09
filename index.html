@@ -1,54 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Ismail Oukhrib - UX Designer</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ismail Oukhrib - UX Designer</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Ismail Oukhrib</h1>
-        <h2>UX Designer</h2>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    
+  <header class="bg-gray-900 text-white py-4">
+    <div class="container mx-auto px-4">
+      <h1 class="text-4xl font-bold">Ismail Oukhrib</h1>
+      <h2 class="text-2xl font-semibold">UX Designer</h2>
+    </div>
+  </header>
+  
+  <nav class="bg-gray-800 text-white py-2">
+    <div class="container mx-auto px-4">
+      <ul class="flex">
+        <li class="mr-4"><a href="#about">About</a></li>
+        <li class="mr-4"><a href="#projects">Projects</a></li>
+        <li class="mr-4"><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <main class="container mx-auto px-4 py-8">
     <section id="about">
-        <h2>About Me</h2>
-        <p>Write a brief description about yourself and your background as a UX designer.</p>
+      <h3 class="text-3xl font-bold mb-4">About Me</h3>
+      <p class="mb-4">I am a passionate UX designer with a focus on creating intuitive and engaging user experiences. I specialize in tracking and delivering app design for bakeries and designing user-friendly apartment finding websites. With my skills in UX/UI design and tools like Photoshop, Adobe XD, and Figma, I aim to create seamless digital experiences.</p>
     </section>
     
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Highlight your notable projects with descriptions and images.</p>
+    <section id="projects" class="mt-8">
+      <h3 class="text-3xl font-bold mb-4">Projects</h3>
+      <ul class="mb-4">
+        <li class="mb-2">
+          <h4 class="text-xl font-semibold">Tracking and Delivering App for Bakeries</h4>
+          <p class="text-gray-700">Description of the project and my role in it.</p>
+        </li>
+        <li class="mb-2">
+          <h4 class="text-xl font-semibold">Apartment Finding Website</h4>
+          <p class="text-gray-700">Description of the project and my role in it.</p>
+        </li>
+        <!-- Add more project details as needed -->
+      </ul>
     </section>
     
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>UX Design</li>
-            <li>UI Design</li>
-            <li>Drawing</li>
-            <li>Photoshop</li>
-            <li>Adobe XD</li>
-            <li>Figma</li>
-            <li>Cohome</li>
-        </ul>
+    <section id="skills" class="mt-8">
+      <h3 class="text-3xl font-bold mb-4">Skills</h3>
+      <ul class="flex flex-wrap mb-4">
+        <li class="mr-4 mb-2">UX Design</li>
+        <li class="mr-4 mb-2">UI Design</li>
+        <li class="mr-4 mb-2">Drawing</li>
+        <li class="mr-4 mb-2">Photoshop</li>
+        <li class="mr-4 mb-2">Adobe XD</li>
+        <li class="mr-4 mb-2">Figma</li>
+        <li class="mr-4 mb-2">CoHome</li>
+        <li class="mr-4 mb-2">Styled with Tailwind CSS</li>
+        <!-- Add more skills as needed -->
+      </ul>
     </section>
     
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Include your contact information, such as email and social media profiles.</p>
+    <section id="contact" class="mt-8">
+      <h3 class="text-3xl font-bold mb-4">Contact Me</h3>
+      <p class="mb-2">Email: ismail@ismaildesign.com</p>
+      <p>Phone: +1234567890</p>
+      <!-- Add more contact details as needed -->
     </section>
-    
-    <footer>
-        <p>&copy; 2023 Ismail Design. All rights reserved.</p>
-    </footer>
+  </main>
+  
+  <footer class="bg-gray-900 text-white py-4">
+    <div class="container mx-auto px-4">
+      <p class="text-center">&copy; 2023 Ismail Oukhrib - All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
