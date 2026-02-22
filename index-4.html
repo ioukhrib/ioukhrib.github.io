@@ -1,9 +1,10 @@
 <!-- prettier-ignore -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- prettier-ignore -->
-        <meta charset="UTF-8" />
+
+<head>
+    <!-- prettier-ignore -->
+    <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="x-ua-compatible" content="ie=edge" />
 <title>Foks - Creative Magazine & Blog HTML Template</title>
@@ -18,11 +19,11 @@
 <!-- Main CSS -->
 <link rel="stylesheet" href="assets/css/main.css" />
 
-    </head>
+</head>
 
-    <body>
-        <!-- prettier-ignore -->
-        <!--Preloader-->
+<body>
+    <!-- prettier-ignore -->
+    <!--Preloader-->
 <div id="preloader">
     <div id="loader" class="loader">
         <div class="loader-container">
@@ -34,18 +35,85 @@
 </div>
 <!--Preloader-end -->
 
-        <!-- Navbar 1 -->
+    <!-- Navbar 4 -->
 <header>
-    <nav class="navbar">
-        <div class="container">
-            <div class="header d-flex align-items-center justify-content-between">
-                <div class="d-flex align-items-center">
-                    <a class="navbar-brand d-flex align-items-center gap-1" href="index.html">
-                        <img class="dark-mode-invert" src="assets/imgs/template/logo/favicon.svg" alt="Logo" />
-                        <strong class="fs-5 text-nowrap">Foks.</strong>
-                    </a>
+    <nav class="navbar flex-column style-4">
+        <div class="container-fluid w-100">
+            <div class="row">
+                <div class="col-12"><div class="topbar py-1 bg-card w-100">
+    <div class="overflow-hidden">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="information justify-content-start d-none d-md-block">
+                <div class="date">
+                    <span class="dot"></span>
+                    <span class="text fs-8 fw-medium text-dark">Friday, 28 Nov 2025</span>
                 </div>
-                <div class="navbar-collapse d-none d-lg-block rounded-6 border-300 bg-card px-4" id="navbarNav"><ul class="navbar-nav">
+            </div>
+            <div class="d-flex align-items-center justify-content-center gap-4 d-none d-md-block">
+                <span class="fs-8 text-dark d-flex align-items-center justify-content-center gap-1">
+                    Get weekly updates with our
+                    <a href="#newsletter" class="link-effect-1">
+                        <span class="text-1 text-700"> Newsletter </span>
+                        <span class="text-2 text-700"> Newsletter </span>
+                        <svg class="ms-1 dark-mode-invert" xmlns="http://www.w3.org/2000/svg" width="9" height="8" viewBox="0 0 9 8" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.40693 0.336148L5.07078 0L4.39848 0.672297L4.73463 1.00845L7.25077 3.52461H0.475386H0V4.47538H0.475386H7.25077L4.73463 6.99156L4.39848 7.32769L5.07078 8.00001L5.40693 7.66382L8.62261 4.44819C8.87013 4.20066 8.87013 3.79933 8.62261 3.5518L5.40693 0.336148Z" fill="#171717" />
+                        </svg>
+                    </a>
+                </span>
+            </div>
+            <div class="d-flex align-items-center gap-3 ms-auto">
+                <div data-bs-toggle="modal" data-bs-target="#popupSearch" class="search-btn d-none d-md-flex align-items-center justify-content-center">
+                    <svg class="dark-mode-invert" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.125 4.875C1.125 2.80394 2.80394 1.125 4.875 1.125C6.94606 1.125 8.625 2.80394 8.625 4.875C8.625 6.94606 6.94606 8.625 4.875 8.625C2.80394 8.625 1.125 6.94606 1.125 4.875ZM4.875 0C2.18261 0 0 2.18261 0 4.875C0 7.56742 2.18261 9.75 4.875 9.75C6.01852 9.75 7.07008 9.35625 7.90147 8.697L10.4773 11.2727L10.875 11.6705L11.6705 10.875L11.2727 10.4773L8.697 7.90147C9.35625 7.07008 9.75 6.01852 9.75 4.875C9.75 2.18261 7.56742 0 4.875 0Z" fill="#171717" />
+                    </svg>
+                    <span class="text-700 fs-8 fw-medium ms-1">Search</span>
+                </div>
+                <div class="size-28 rounded-circle position-relative">
+                    <div class="dark-light-mode position-absolute top-50 start-50 translate-middle">
+                        <label class="toggle dark-light-switcher">
+                            <input type="checkbox" class="input" />
+                            <span class="icon icon--moon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                                    <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.981.98 10.503 10.503 0 01-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 01.818.162z" clip-rule="evenodd"></path>
+                                </svg>
+                            </span>
+                            <span class="icon icon--sun">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M8.75 0.75V0H7.25V0.75V2V2.75H8.75V2V0.75ZM11.182 3.75732L11.7123 3.22699L12.0659 2.87344L12.5962 2.34311L13.6569 3.40377L13.1265 3.9341L12.773 4.28765L12.2426 4.81798L11.182 3.75732ZM8 10.5C9.38071 10.5 10.5 9.38071 10.5 8C10.5 6.61929 9.38071 5.5 8 5.5C6.61929 5.5 5.5 6.61929 5.5 8C5.5 9.38071 6.61929 10.5 8 10.5ZM8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12ZM13.25 7.25H14H15.25H16V8.75H15.25H14H13.25V7.25ZM0.75 7.25H0V8.75H0.75H2H2.75V7.25H2H0.75ZM2.87348 12.0659L2.34315 12.5962L3.40381 13.6569L3.93414 13.1265L4.28769 12.773L4.81802 12.2426L3.75736 11.182L3.22703 11.7123L2.87348 12.0659ZM3.75735 4.81798L3.22702 4.28765L2.87347 3.9341L2.34314 3.40377L3.4038 2.34311L3.93413 2.87344L4.28768 3.22699L4.81802 3.75732L3.75735 4.81798ZM12.0659 13.1265L12.5962 13.6569L13.6569 12.5962L13.1265 12.0659L12.773 11.7123L12.2426 11.182L11.182 12.2426L11.7123 12.773L12.0659 13.1265ZM8.75 13.25V14V15.25V16H7.25V15.25V14V13.25H8.75Z"
+                                    />
+                                </svg>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+                <a href="#" class="navbar-toggler size-16">
+                    <svg class="dark-mode-invert" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1 2H1.75H14.25H15V3.5H14.25H1.75H1V2ZM1 12.5H1.75H14.25H15V14H14.25H1.75H1V12.5ZM1.75 7.25H1V8.75H1.75H14.25H15V7.25H14.25H1.75Z" fill="#171717" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center navbar-brand-container pt-4">
+                        <a class="navbar-brand d-flex align-items-center justify-content-center gap-1" href="index.html">
+                            <img class="dark-mode-invert" src="assets/imgs/template/logo/favicon.svg" alt="Logo" />
+                            <strong class="fs-5 text-nowrap">Foks.</strong>
+                        </a>
+                        <p class="fs-8">Thoughts, stories and ideas.</p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="navbar-collapse d-none d-lg-block" id="navbarNav"><ul class="navbar-nav">
     <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle link-effect-1 " href="#"><span>Home</span></a>
         <ul class="dropdown-menu">
@@ -396,51 +464,6 @@
         </ul>
     </li>
 </ul></div>
-                <div class="group-btn-right d-flex align-items-center">
-                    <div data-bs-toggle="modal" data-bs-target="#popupSearch" class="search-btn d-none d-md-flex align-items-center justify-content-center size-28 rounded-circle border-300 bg-card">
-                        <svg class="dark-mode-invert" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.125 4.875C1.125 2.80394 2.80394 1.125 4.875 1.125C6.94606 1.125 8.625 2.80394 8.625 4.875C8.625 6.94606 6.94606 8.625 4.875 8.625C2.80394 8.625 1.125 6.94606 1.125 4.875ZM4.875 0C2.18261 0 0 2.18261 0 4.875C0 7.56742 2.18261 9.75 4.875 9.75C6.01852 9.75 7.07008 9.35625 7.90147 8.697L10.4773 11.2727L10.875 11.6705L11.6705 10.875L11.2727 10.4773L8.697 7.90147C9.35625 7.07008 9.75 6.01852 9.75 4.875C9.75 2.18261 7.56742 0 4.875 0Z" fill="#171717" />
-                        </svg>
-                    </div>
-                    <div class="size-28 rounded-circle border-300 bg-card position-relative">
-                        <div class="dark-light-mode position-absolute top-50 start-50 translate-middle">
-                            <label class="toggle dark-light-switcher">
-                                <input type="checkbox" class="input" />
-                                <span class="icon icon--moon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.981.98 10.503 10.503 0 01-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 01.818.162z" clip-rule="evenodd"></path>
-                                    </svg>
-                                </span>
-                                <span class="icon icon--sun">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-                                        <path
-                                            fill-rule="evenodd"
-                                            clip-rule="evenodd"
-                                            d="M8.75 0.75V0H7.25V0.75V2V2.75H8.75V2V0.75ZM11.182 3.75732L11.7123 3.22699L12.0659 2.87344L12.5962 2.34311L13.6569 3.40377L13.1265 3.9341L12.773 4.28765L12.2426 4.81798L11.182 3.75732ZM8 10.5C9.38071 10.5 10.5 9.38071 10.5 8C10.5 6.61929 9.38071 5.5 8 5.5C6.61929 5.5 5.5 6.61929 5.5 8C5.5 9.38071 6.61929 10.5 8 10.5ZM8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12ZM13.25 7.25H14H15.25H16V8.75H15.25H14H13.25V7.25ZM0.75 7.25H0V8.75H0.75H2H2.75V7.25H2H0.75ZM2.87348 12.0659L2.34315 12.5962L3.40381 13.6569L3.93414 13.1265L4.28769 12.773L4.81802 12.2426L3.75736 11.182L3.22703 11.7123L2.87348 12.0659ZM3.75735 4.81798L3.22702 4.28765L2.87347 3.9341L2.34314 3.40377L3.4038 2.34311L3.93413 2.87344L4.28768 3.22699L4.81802 3.75732L3.75735 4.81798ZM12.0659 13.1265L12.5962 13.6569L13.6569 12.5962L13.1265 12.0659L12.773 11.7123L12.2426 11.182L11.182 12.2426L11.7123 12.773L12.0659 13.1265ZM8.75 13.25V14V15.25V16H7.25V15.25V14V13.25H8.75Z"
-                                        />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                    </div>
-                    <a href="page-contact.html" class="btn btn-dark d-none d-md-block">
-                        <span class="text-nowrap">Contact</span>
-                        <span class="group-icon">
-                            <span class="group-icon-inner dark-mode-invert">
-                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5521 1.52598L6.1875 1.16138L5.4583 1.89058L5.8229 2.25518L8.55202 4.98433H1.20312H0.6875V6.01558H1.20312H8.55202L5.8229 8.74474L5.4583 9.10932L6.1875 9.83856L6.5521 9.47391L10.04 5.98609C10.3084 5.7176 10.3084 5.2823 10.04 5.01382L6.5521 1.52598Z" fill="white"></path>
-                                </svg>
-                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5521 1.52598L6.1875 1.16138L5.4583 1.89058L5.8229 2.25518L8.55202 4.98433H1.20312H0.6875V6.01558H1.20312H8.55202L5.8229 8.74474L5.4583 9.10932L6.1875 9.83856L6.5521 9.47391L10.04 5.98609C10.3084 5.7176 10.3084 5.2823 10.04 5.01382L6.5521 1.52598Z" fill="white"></path>
-                                </svg>
-                            </span>
-                        </span>
-                    </a>
-                    <a href="#" class="navbar-toggler d-lg-none size-28 icon-shape">
-                        <svg class="dark-mode-invert" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1 2H1.75H14.25H15V3.5H14.25H1.75H1V2ZM1 12.5H1.75H14.25H15V14H14.25H1.75H1V12.5ZM1.75 7.25H1V8.75H1.75H14.25H15V7.25H14.25H1.75Z" fill="#171717" />
-                        </svg>
-                    </a>
                 </div>
             </div>
         </div>
@@ -769,132 +792,179 @@
 <div class="sidebar-overlay"></div>
 
 
-        <main>
-            <!-- prettier-ignore -->
-            <!--Home 1 Section 1-->
-<section class="sec-1-home-1 pt-50 pb-50 overflow-hidden">
+    <main>
+        <!-- prettier-ignore -->
+        <!--Home 4 Section 1-->
+<section class="sec-1-home-4 pt-2 pb-60 overflow-hidden">
     <div class="container">
-        <div class="row mb-3 g-4 align-items-end">
-            <div class="col-lg-8">
-                <div class="d-inline-block">
-                    <h1 class="ds-1 mb-3">Quietly Thinking</h1>
-                    <span class="line-dot"></span>
+        <div class="row g-4">
+            <div class="col-12">
+                <div class="swiper slider-3">
+                    <div class="swiper-wrapper">
+                        <!-- prettier-ignore -->
+                        <div class="swiper-slide">
+    <div class="card-blog card-3 hover-up hover-zoom-image flex-row-reverse">
+        <div class="card-body">
+            <h6 class="mb-2 hover-underline">
+                <a href="single-1.html" class="text-truncate-2"><span class="card-title"> Time slowly fades where moss grows </span> </a>
+            </h6>
+            <div class="information">
+                <div class="date">
+                    <span class="dot"></span>
+                    <span class="text fs-8 fw-medium">Jun 13, 2025</span>
                 </div>
-            </div>
-            <div class="col-lg-4">
-                <p class="text-dark">A calm space for slow thoughts. No noise — just reflection, meaning, and quiet curiosity.</p>
-                <div class="d-flex align-items-center gap-2">
-                    <a href="page-contact.html" class="btn btn-outline">
-                        <span class="text-nowrap">Subscribe now</span>
-                        <span class="group-icon">
-                            <span class="group-icon-inner dark-mode-invert">
-                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5521 1.52598L6.1875 1.16138L5.4583 1.89058L5.8229 2.25518L8.55202 4.98433H1.20312H0.6875V6.01558H1.20312H8.55202L5.8229 8.74474L5.4583 9.10932L6.1875 9.83856L6.5521 9.47391L10.04 5.98609C10.3084 5.7176 10.3084 5.2823 10.04 5.01382L6.5521 1.52598Z" fill="#171717"></path>
-                                </svg>
-                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5521 1.52598L6.1875 1.16138L5.4583 1.89058L5.8229 2.25518L8.55202 4.98433H1.20312H0.6875V6.01558H1.20312H8.55202L5.8229 8.74474L5.4583 9.10932L6.1875 9.83856L6.5521 9.47391L10.04 5.98609C10.3084 5.7176 10.3084 5.2823 10.04 5.01382L6.5521 1.52598Z" fill="#171717"></path>
-                                </svg>
-                            </span>
-                        </span>
-                    </a>
-                    <a href="https://www.youtube.com/watch?v=k2kiyWu_XNc" class="hover-up play-btn popup-video">
-                        <svg class="dark-mode-invert" xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.4705 4.13888C8.58563 4.19646 8.58563 4.36081 8.4705 4.41839L0.226125 8.54058C0.122237 8.59252 0 8.51695 0 8.40083V0.156453C0 0.0402968 0.122237 -0.035247 0.226125 0.0166968L8.4705 4.13888Z" fill="#171717" />
-                        </svg>
-                    </a>
+                <div class="read-time me-auto">
+                    <span class="dot"></span>
+                    <span class="text fs-8 fw-medium">10 min read</span>
                 </div>
             </div>
         </div>
-        <div class="row pt-40 g-3">
-            <div class="col-lg-9 col-md-6 col-12">
-                <div class="card-blog hover-up hover-zoom-image mb-4 row">
-                    <div class="col-lg-4 col-md-6  order-lg-1 order-2">
-                        <div class="card-blog hover-up hover-zoom-image">
-                            <div class="card-body">
-                                <a href="archive-1.html" class="tag has-dot text-nowrap">
-                                    <span class="text-nowrap link-effect-1">
-                                        <span class="text-1">Lifestyle</span>
-                                        <span class="text-2">Lifestyle</span>
-                                    </span>
-                                </a>
-                                <h4 class="mb-3 mt-2 hover-underline">
-                                    <a href="single-1.html" class="card-title">Returning to the unnamed wild beyond the maps</a>
-                                </h4>
-                                <p class="fs-7 pb-4 border-bottom">There are places that refuse to be mapped — not because they’re far, but because they’re alive.</p>
-                                <div class="information">
-                                    <div class="author">
-                                        <a href="page-author.html" class="author-img">
-                                            <img src="assets/imgs/template/author/author-7.webp" alt="foks" />
-                                        </a>
-                                        <a href="page-author.html" class="author-info"> Lora </a>
-                                    </div>
-                                    <div class="date">
-                                        <span class="dot"></span>
-                                        <span class="text fs-8 fw-medium">Jun 13, 2025</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="group-tag mt-3">
-                            <a href="archive-1.html" class="tag">silence</a>
-                            <a href="archive-2.html" class="tag">noise</a>
-                            <a href="archive-3.html" class="tag">solitude</a>
-                            <a href="archive-4.html" class="tag">landscape</a>
-                            <a href="archive-5.html" class="tag">mindfulness</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-8 col-md-6 col-12 mb-lg-0 mb-4 d-md-none d-lg-block order-lg-2 order-1">
-                        <div class="card-img">
-                            <a href="single-1.html">
-                                <img src="assets/imgs/page/img-1.webp" alt="foks" class="cover-image" />
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12">
-                <!-- prettier-ignore -->
-                <div class="card-blog card-1 hover-up hover-zoom-image ">
-    <div class="card-img">
-        <a href="single-1.html">
-            <img src="assets/imgs/page/img-2.webp" class="w-100 h-100 lazyloaded card-img" alt="foks" />
-        </a>
-    </div>
-    <div class="card-body">
-        <h6 class="mb-3 mt-2 hover-underline">
-            <a href="single-1.html" class="card-title">When machines begin to dream of trees</a>
-        </h6>
-        <p class="fs-7 pb-3">A calm space for slow thoughts. No noise — just reflection, meaning, and quiet curiosity.</p>
-    </div>
-    <div class="information">
-        <div class="date line-divider w-100">
-            <span class="dot"></span>
-            <span class="text">Jun 13, 2025</span>
+        <div class="card-img-container">
+            <a href="single-1.html" class="card-img">
+                <img src="assets/imgs/page/img-9.webp" alt="foks" />
+            </a>
         </div>
     </div>
 </div>
-            </div>
-        </div>
-    </div>
-</section>
-            <!--Home 1 Section 2-->
-<section class="sec-2-home-1 pb-50 overflow-hidden">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="block-header">
-                    <h6 class="mb-0"># Breaking News</h6>
+<div class="swiper-slide">
+    <div class="card-blog card-3 hover-up hover-zoom-image flex-row-reverse">
+        <div class="card-body">
+            <h6 class="mb-2 hover-underline">
+                <a href="single-1.html" class="text-truncate-2"><span class="card-title"> The weight of light in endless fields </span> </a>
+            </h6>
+            <div class="information">
+                <div class="date">
+                    <span class="dot"></span>
+                    <span class="text fs-8 fw-medium">Jun 13, 2025</span>
+                </div>
+                <div class="read-time me-auto">
+                    <span class="dot"></span>
+                    <span class="text fs-8 fw-medium">10 min read</span>
                 </div>
             </div>
         </div>
-        <div class="row mt-0 g-5">
-            <div class="col-lg-8 mt-3">
+        <div class="card-img-container">
+            <a href="single-1.html" class="card-img">
+                <img src="assets/imgs/page/img-10.webp" alt="foks" />
+            </a>
+        </div>
+    </div>
+</div>
+<div class="swiper-slide">
+    <div class="card-blog card-3 hover-up hover-zoom-image flex-row-reverse">
+        <div class="card-body">
+            <h6 class="mb-2 hover-underline">
+                <a href="single-1.html" class="text-truncate-2"><span class="card-title"> What the fire gently leaves behind </span> </a>
+            </h6>
+            <div class="information">
+                <div class="date">
+                    <span class="dot"></span>
+                    <span class="text fs-8 fw-medium">Jun 13, 2025</span>
+                </div>
+                <div class="read-time me-auto">
+                    <span class="dot"></span>
+                    <span class="text fs-8 fw-medium">10 min read</span>
+                </div>
+            </div>
+        </div>
+        <div class="card-img-container">
+            <a href="single-1.html" class="card-img">
+                <img src="assets/imgs/page/img-11.webp" alt="foks" />
+            </a>
+        </div>
+    </div>
+</div>
+<div class="swiper-slide">
+    <div class="card-blog card-3 hover-up hover-zoom-image flex-row-reverse">
+        <div class="card-body">
+            <h6 class="mb-2 hover-underline">
+                <a href="single-1.html" class="text-truncate-2"><span class="card-title"> The weight of light in endless fields </span> </a>
+            </h6>
+            <div class="information">
+                <div class="date">
+                    <span class="dot"></span>
+                    <span class="text fs-8 fw-medium">Jun 13, 2025</span>
+                </div>
+                <div class="read-time me-auto">
+                    <span class="dot"></span>
+                    <span class="text fs-8 fw-medium">10 min read</span>
+                </div>
+            </div>
+        </div>
+        <div class="card-img-container">
+            <a href="single-1.html" class="card-img">
+                <img src="assets/imgs/page/img-10.webp" alt="foks" />
+            </a>
+        </div>
+    </div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-5 pt-4">
+            <div class="col-lg-8 col-12">
+                <!-- prettier-ignore -->
+                <div class="card-blog-wrapper col-12">
+    <div class="card-blog card-5 hover-up hover-zoom-image position-relative ">
+        <a href="single-6.html" class="card-img max-height-442 rounded-6 overflow-hidden d-block">
+            <img class="image cover-image" src="assets/imgs/page/img-42.webp" alt="foks" />
+        </a>
+        <div class="card-body ">
+            <a href="archive-4.html" class="tag has-dot text-nowrap position-absolute top-0 end-0 m-3">
+                <span class="text-nowrap link-effect-1">
+                    <span class="text-1">Lifestyle</span>
+                    <span class="text-2">Lifestyle</span>
+                </span>
+            </a>
+            <div class="information pt-3 justify-content-start">
+                <div class="date">
+                    <span class="text fs-8 fw-medium">January 13, 2025</span>
+                </div>
+                <div class="read-time">
+                    <span class="dot"></span>
+                    <span class="text fs-8 fw-medium">10 min read</span>
+                </div>
+            </div>
+            <h5 class="mb-2 mt-2 hover-underline">
+                <a href="single-6.html" class="text-truncate-2"><span class="card-title"> The breath of the mountains stays warm, even when humanity walks away </span> </a>
+            </h5>
+            <p class="fs-6 text-dark text-truncate-2 mb-0">The mountains keep their calm long after we’re gone. Their patience is older than our fears, older than the echoes of our voices that fade through their valleys.</p>
+            <div class="information pt-4">
+                <a href="page-author.html" class="author">
+                    <span class="author-img">
+                        <img class="size-32" src="assets/imgs/template/author/author-12.webp" alt="foks" />
+                    </span>
+                    <span class="author-info"> John Doe </span>
+                </a>
+                <a href="single-6.html" class="btn btn-outline">
+                    <span class="text-nowrap">Read more</span>
+                    <span class="group-icon">
+                        <span class="group-icon-inner dark-mode-invert">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5521 1.52598L6.1875 1.16138L5.4583 1.89058L5.8229 2.25518L8.55202 4.98433H1.20312H0.6875V6.01558H1.20312H8.55202L5.8229 8.74474L5.4583 9.10932L6.1875 9.83856L6.5521 9.47391L10.04 5.98609C10.3084 5.7176 10.3084 5.2823 10.04 5.01382L6.5521 1.52598Z" fill="#171717"></path>
+                            </svg>
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5521 1.52598L6.1875 1.16138L5.4583 1.89058L5.8229 2.25518L8.55202 4.98433H1.20312H0.6875V6.01558H1.20312H8.55202L5.8229 8.74474L5.4583 9.10932L6.1875 9.83856L6.5521 9.47391L10.04 5.98609C10.3084 5.7176 10.3084 5.2823 10.04 5.01382L6.5521 1.52598Z" fill="#171717"></path>
+                            </svg>
+                        </span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <div class="col-12 pt-4 pb-3">
+                    <div class="block-header">
+                        <h6 class="mb-0"># Latest news</h6>
+                    </div>
+                </div>
                 <!-- prettier-ignore -->
                 <div class="card-blog card-2 hover-up hover-zoom-image mb-4 ">
     <a href="single-1.html" class="card-img d-inline-block ">
-        <img class="image cover-image" src="assets/imgs/page/img-3.webp" alt="foks" />
+        <img class="image cover-image" src="assets/imgs/page/img-48.webp" alt="foks" />
     </a>
     <div class="card-body">
         <a href="archive-1.html" class="tag has-dot text-nowrap">
@@ -923,7 +993,7 @@
 </div>
 <div class="card-blog card-2 hover-up hover-zoom-image mb-4 ">
     <a href="single-1.html" class="card-img d-inline-block ">
-        <img class="image cover-image" src="assets/imgs/page/img-4.webp" alt="foks" />
+        <img class="image cover-image" src="assets/imgs/page/img-49.webp" alt="foks" />
     </a>
     <div class="card-body">
         <a href="archive-1.html" class="tag has-dot text-nowrap">
@@ -952,7 +1022,7 @@
 </div>
 <div class="card-blog card-2 hover-up hover-zoom-image mb-4 ">
     <a href="single-1.html" class="card-img d-inline-block ">
-        <img class="image cover-image" src="assets/imgs/page/img-5.webp" alt="foks" />
+        <img class="image cover-image" src="assets/imgs/page/img-50.webp" alt="foks" />
     </a>
     <div class="card-body">
         <a href="archive-1.html" class="tag has-dot text-nowrap">
@@ -981,7 +1051,7 @@
 </div>
 <div class="card-blog card-2 hover-up hover-zoom-image mb-4 ">
     <a href="single-1.html" class="card-img d-inline-block ">
-        <img class="image cover-image" src="assets/imgs/page/img-6.webp" alt="foks" />
+        <img class="image cover-image" src="assets/imgs/page/img-51.webp" alt="foks" />
     </a>
     <div class="card-body">
         <a href="archive-1.html" class="tag has-dot text-nowrap">
@@ -1010,7 +1080,7 @@
 </div>
 <div class="card-blog card-2 hover-up hover-zoom-image mb-4 ">
     <a href="single-1.html" class="card-img d-inline-block ">
-        <img class="image cover-image" src="assets/imgs/page/img-7.webp" alt="foks" />
+        <img class="image cover-image" src="assets/imgs/page/img-52.webp" alt="foks" />
     </a>
     <div class="card-body">
         <a href="archive-1.html" class="tag has-dot text-nowrap">
@@ -1039,7 +1109,7 @@
 </div>
 <div class="card-blog card-2 hover-up hover-zoom-image mb-4 ">
     <a href="single-1.html" class="card-img d-inline-block ">
-        <img class="image cover-image" src="assets/imgs/page/img-8.webp" alt="foks" />
+        <img class="image cover-image" src="assets/imgs/page/img-53.webp" alt="foks" />
     </a>
     <div class="card-body">
         <a href="archive-1.html" class="tag has-dot text-nowrap">
@@ -1083,7 +1153,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-lg-4 mt-3">
+            <div class="col-lg-4">
                 <!-- prettier-ignore -->
                 <div class="sidebar_right">
     <div class="row">
@@ -1389,14 +1459,108 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6 col-12 col-lg-12  order-md-2 order-2 order-lg-2">
+        <div class="col-md-6 col-12 col-lg-12  order-md-1 order-2 order-lg-2">
+            <div class="trending pt-4">
+                <span class="fs-8 fw-bold text-uppercase">Trending</span>
+                <div class="card-blog-wrapper pt-3 pb-2">
+                    <div class="card-blog card-5 hover-up hover-zoom-image position-relative">
+                        <a href="single-1.html" class="card-img rounded-6 overflow-hidden d-block">
+                            <img class="image cover-image" src="assets/imgs/page/img-41.webp" alt="foks" />
+                        </a>
+                        <div class="card-body">
+                            <a href="archive-1.html" class="tag has-dot text-nowrap position-absolute top-0 end-0 m-3">
+                                <span class="text-nowrap link-effect-1">
+                                    <span class="text-1">Observation</span>
+                                    <span class="text-2">Observation</span>
+                                </span>
+                            </a>
+                            <div class="information pt-3 justify-content-start">
+                                <div class="date">
+                                    <span class="text fs-8 fw-medium">February 4, 2025</span>
+                                </div>
+                                <div class="read-time">
+                                    <span class="dot"></span>
+                                    <span class="text fs-8 fw-medium">10 mins read</span>
+                                </div>
+                            </div>
+                            <h5 class="mb-2 mt-2 hover-underline">
+                                <a href="single-1.html" class="text-truncate-2"><span class="card-title"> The stars quietly watch as we tear down the ancient woods </span> </a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- prettier-ignore -->
+                <div class="border-top-400">
+    <div class="card-blog card-3 hover-up hover-zoom-image flex-row-reverse">
+        <div class="card-body">
+            <h6 class="mb-2 hover-underline">
+                <a href="single-1.html" class=" text-truncate-2"><span class="card-title"> Time slowly fades where moss grows </span> </a>
+            </h6>
+            <div class="information">
+                <div class="date">
+                    <span class="dot"></span>
+                    <span class="text fs-8 fw-medium">Jun 13, 2025</span>
+                </div>
+            </div>
+        </div>
+        <div class="card-img-container">
+            <a href="single-1.html" class="card-img">
+                <img src="assets/imgs/page/img-55.webp" alt="foks" />
+            </a>
+        </div>
+    </div>
+</div>
+<div class="">
+    <div class="card-blog card-3 hover-up hover-zoom-image flex-row-reverse">
+        <div class="card-body">
+            <h6 class="mb-2 hover-underline">
+                <a href="single-1.html" class=" text-truncate-2"><span class="card-title"> The weight of light in endless fields </span> </a>
+            </h6>
+            <div class="information">
+                <div class="date">
+                    <span class="dot"></span>
+                    <span class="text fs-8 fw-medium">Jun 13, 2025</span>
+                </div>
+            </div>
+        </div>
+        <div class="card-img-container">
+            <a href="single-1.html" class="card-img">
+                <img src="assets/imgs/page/img-56.webp" alt="foks" />
+            </a>
+        </div>
+    </div>
+</div>
+<div class="">
+    <div class="card-blog card-3 hover-up hover-zoom-image flex-row-reverse border-0">
+        <div class="card-body">
+            <h6 class="mb-2 hover-underline">
+                <a href="single-1.html" class=" text-truncate-2"><span class="card-title"> What the fire gently leaves behind </span> </a>
+            </h6>
+            <div class="information">
+                <div class="date">
+                    <span class="dot"></span>
+                    <span class="text fs-8 fw-medium">Jun 13, 2025</span>
+                </div>
+            </div>
+        </div>
+        <div class="card-img-container">
+            <a href="single-1.html" class="card-img">
+                <img src="assets/imgs/page/img-57.webp" alt="foks" />
+            </a>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="col-md-6 col-12 col-lg-12  order-lg-3">
             <div class="trending-topics pt-4">
-                <span class="fs-8 fw-bold text-uppercase">Trending Topics</span>
+                <span class="fs-8 fw-bold text-uppercase">Explore Trending Topics</span>
                 <div class="group-topics pt-3 swiper slider-1">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="category-card">
-                                <a href="single-1.html" class="card-img"> <img class="image cover-image" src="assets/imgs/page/img-58.webp" alt="foks" /></a>
+                                <a href="archive-1.html" class="card-img"> <img class="image cover-image" src="assets/imgs/page/img-58.webp" alt="foks" /></a>
                                 <div class="card-body">
                                     <h6 class="mb-1 hover-underline">
                                         <a href="archive-1.html" class="card-title">Lifestyle</a>
@@ -1407,10 +1571,10 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="category-card">
-                                <a href="single-1.html" class="card-img"> <img class="image cover-image" src="assets/imgs/page/img-4.webp" alt="foks" /></a>
+                                <a href="archive-1.html" class="card-img"> <img class="image cover-image" src="assets/imgs/page/img-4.webp" alt="foks" /></a>
                                 <div class="card-body">
                                     <h6 class="mb-1 hover-underline">
-                                        <a href="archive-2.html" class="card-title">Fashion</a>
+                                        <a href="archive-1.html" class="card-title">Fashion</a>
                                     </h6>
                                     <p class="fs-8 mb-0">134 articles</p>
                                 </div>
@@ -1433,7 +1597,7 @@
             </div>
         </div>
 
-        <div class="col-md-6 col-12 col-lg-12  order-lg-3">
+        <div class="col-md-6 col-12 col-lg-12  order-lg-4">
             <div class="block-ads text-center mt-4">
                 <h6 class="text-600 z-1">Your banner here</h6>
                 <h6 class="text-600 z-1">310 x 220</h6>
@@ -1462,65 +1626,11 @@
     </div>
 </section>
 
-            <!--Home 1 Section 3-->
-<section class="sec-3-home-1 pb-60 position-relative">
-    <div class="container">
-        <div class="block-newsletter position-relative" id="newsletter">
-            <div class="position-absolute top-0 start-100 translate-middle mt-2px">
-                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
-                    <path d="M0 10.5H21M10.5 0V21" stroke="#A8A8A8" />
-                </svg>
-            </div>
-            <div class="position-absolute top-100 start-0 mt-1 translate-middle">
-                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
-                    <path d="M0 10.5H21M10.5 0V21" stroke="#A8A8A8" />
-                </svg>
-            </div>
-            <div class="row">
-                <div class="col-lg-9 col-12 mx-auto text-center position-relative">
-                    <div class="position-absolute top-0 end-0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1 2.5C7.90356 2.5 13.5 8.09644 13.5 15H15C15 7.26801 8.73199 1 1 1V2.5ZM8 15C8 11.134 4.86599 8 1 8V6.5C5.69442 6.5 9.5 10.3056 9.5 15H8ZM2.5 15C2.5 14.1716 1.82843 13.5 1 13.5V12C2.65685 12 4 13.3431 4 15H2.5Z" fill="#A8A8A8" />
-                        </svg>
-                    </div>
-                    <h4 class="mb-2">Subscribe to our newsletter</h4>
-                    <p class="fs-7 text-700">Get the best blog stories into your inbox!</p>
-                </div>
-                <div class="col-lg-7 col-md-10 col-12 mx-auto position-relative">
-                    <div class="position-absolute bottom-0 end-100 me-5">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19" fill="none">
-                            <path d="M20.7852 18.25H0.865234L10.8252 0.999023L20.7852 18.25Z" stroke="#A8A8A8" />
-                        </svg>
-                    </div>
-                    <form action="#">
-                        <div class="d-flex gap-2 justify-content-center">
-                            <input class="form-control" type="text" placeholder="Your email address" />
-                            <button class="btn btn-dark btn-lg" type="submit">
-                                Subscribe
-                                <span class="group-icon">
-                                    <span class="group-icon-inner dark-mode-invert">
-                                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5521 1.52598L6.1875 1.16138L5.4583 1.89058L5.8229 2.25518L8.55202 4.98433H1.20312H0.6875V6.01558H1.20312H8.55202L5.8229 8.74474L5.4583 9.10932L6.1875 9.83856L6.5521 9.47391L10.04 5.98609C10.3084 5.7176 10.3084 5.2823 10.04 5.01382L6.5521 1.52598Z" fill="white"></path>
-                                        </svg>
-                                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5521 1.52598L6.1875 1.16138L5.4583 1.89058L5.8229 2.25518L8.55202 4.98433H1.20312H0.6875V6.01558H1.20312H8.55202L5.8229 8.74474L5.4583 9.10932L6.1875 9.83856L6.5521 9.47391L10.04 5.98609C10.3084 5.7176 10.3084 5.2823 10.04 5.01382L6.5521 1.52598Z" fill="white"></path>
-                                        </svg>
-                                    </span>
-                                </span>
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-            <!--Home 1 Section 4-->
+        <!--Home 1 Section 4-->
 <section class="sec-4-home-1 pb-50 overflow-hidden">
     <div class="container">
         <div class="row g-3">
-            <div class="col-12 text-center">
+            <div class="col-12 text-start">
                 <span class="fs-7 text-800 fw-bold">Browse by Category</span>
             </div>
             <div class="col-lg-2 col-md-4 col-6">
@@ -1593,59 +1703,190 @@
     </div>
 </section>
 
-        </main>
-        <!-- prettier-ignore -->
-        <!-- Footer -->
-<footer>
-    <div class="section-footer overflow-hidden pb-4">
-        <div class="container">
-            <div class="row pb-5">
-                <div class="col-12">
-                    <div class="line-dot"></div>
+        <!--Home 1 Section 3-->
+<section class="sec-3-home-1 pb-60 position-relative">
+    <div class="container">
+        <div class="block-newsletter position-relative" id="newsletter">
+            <div class="position-absolute top-0 start-100 translate-middle mt-2px">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                    <path d="M0 10.5H21M10.5 0V21" stroke="#A8A8A8" />
+                </svg>
+            </div>
+            <div class="position-absolute top-100 start-0 mt-1 translate-middle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                    <path d="M0 10.5H21M10.5 0V21" stroke="#A8A8A8" />
+                </svg>
+            </div>
+            <div class="row">
+                <div class="col-lg-9 col-12 mx-auto text-center position-relative">
+                    <div class="position-absolute top-0 end-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1 2.5C7.90356 2.5 13.5 8.09644 13.5 15H15C15 7.26801 8.73199 1 1 1V2.5ZM8 15C8 11.134 4.86599 8 1 8V6.5C5.69442 6.5 9.5 10.3056 9.5 15H8ZM2.5 15C2.5 14.1716 1.82843 13.5 1 13.5V12C2.65685 12 4 13.3431 4 15H2.5Z" fill="#A8A8A8" />
+                        </svg>
+                    </div>
+                    <h4 class="mb-2">Subscribe to our newsletter</h4>
+                    <p class="fs-7 text-700">Get the best blog stories into your inbox!</p>
+                </div>
+                <div class="col-lg-7 col-md-10 col-12 mx-auto position-relative">
+                    <div class="position-absolute bottom-0 end-100 me-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19" fill="none">
+                            <path d="M20.7852 18.25H0.865234L10.8252 0.999023L20.7852 18.25Z" stroke="#A8A8A8" />
+                        </svg>
+                    </div>
+                    <form action="#">
+                        <div class="d-flex gap-2 justify-content-center">
+                            <input class="form-control" type="text" placeholder="Your email address" />
+                            <button class="btn btn-dark btn-lg" type="submit">
+                                Subscribe
+                                <span class="group-icon">
+                                    <span class="group-icon-inner dark-mode-invert">
+                                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5521 1.52598L6.1875 1.16138L5.4583 1.89058L5.8229 2.25518L8.55202 4.98433H1.20312H0.6875V6.01558H1.20312H8.55202L5.8229 8.74474L5.4583 9.10932L6.1875 9.83856L6.5521 9.47391L10.04 5.98609C10.3084 5.7176 10.3084 5.2823 10.04 5.01382L6.5521 1.52598Z" fill="white"></path>
+                                        </svg>
+                                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5521 1.52598L6.1875 1.16138L5.4583 1.89058L5.8229 2.25518L8.55202 4.98433H1.20312H0.6875V6.01558H1.20312H8.55202L5.8229 8.74474L5.4583 9.10932L6.1875 9.83856L6.5521 9.47391L10.04 5.98609C10.3084 5.7176 10.3084 5.2823 10.04 5.01382L6.5521 1.52598Z" fill="white"></path>
+                                        </svg>
+                                    </span>
+                                </span>
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
-            <div class="row g-5">
-                <div class="col-lg-4 col-md-7 pe-lg-5">
-                    <a class="navbar-brand d-flex align-items-center gap-1" href="index.html">
-                        <img class="dark-mode-invert" src="assets/imgs/template/logo/favicon.svg" alt="Logo" />
-                        <strong class="fs-5 text-nowrap">Foks.</strong>
-                    </a>
+        </div>
+    </div>
+</section>
 
-                    <p class="fs-7 text-dark mt-2 mb-3">Crafted for writers and storytellers, Oris offers a modern, timeless space where your words truly belong.</p>
-                    <p class="fs-8 fw-bold text-uppercase mb-2">Follow Us</p>
-                    <div class="d-inline-flex group-social-icons">
-                        <a href="#" class="icon-shape icon-30 bg-card border-300 rounded-4 hover-up">
-                            <svg class="dark-mode-invert" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.00319 15.9377C12.948 15.4442 16 12.0785 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 11.8172 2.67341 15.0099 6.25 15.808V10.4303H4.5V8H6.25V6.93969C6.25 4.22193 7.28461 2.96364 9.95128 2.96364C10.4559 2.96364 11.3277 3.06264 11.6854 3.16164V5.37163C11.497 5.35247 11.168 5.34289 10.7625 5.34289C9.45307 5.34289 9 5.8379 9 7.12812V8H11.5577L11.1106 10.4303H9.00319V15.9377Z" fill="#171717" />
-                            </svg>
-                        </a>
-                        <a href="#" class="icon-shape icon-30 bg-card border-300 rounded-4 hover-up">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
-                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
-                            </svg>
-                        </a>
-                        <a href="#" class="icon-shape icon-30 bg-card border-300 rounded-4 hover-up">
-                            <svg class="dark-mode-invert" xmlns="http://www.w3.org/2000/svg" width="15" height="16" viewBox="0 0 15 16" fill="none">
-                                <path
-                                    fill-rule="evenodd"
-                                    clip-rule="evenodd"
-                                    d="M4.94543 0.0265915C3.55568 0.0738296 2.91668 0.206401 2.15918 0.604115C1.81118 0.786211 1.58768 0.95383 1.27343 1.26621C0.557932 1.98012 0.186682 2.85021 0.0539318 4.12335C0.0314318 4.33593 0.0134318 5.36907 0.00443185 6.93935C-0.0188182 10.8792 0.0396818 11.6967 0.415432 12.6491C0.619432 13.1656 0.848932 13.5199 1.24868 13.9336C1.96343 14.6742 2.81543 15.043 4.12043 15.1763C4.66418 15.2327 10.0694 15.2334 10.7204 15.1778C11.4734 15.1138 11.9392 15.0133 12.4529 14.8045C12.9599 14.5988 13.3094 14.3649 13.7174 13.9588C14.4464 13.2327 14.8094 12.3672 14.9407 11.0414C14.9962 10.4891 14.9969 4.99802 14.9422 4.33669C14.8792 3.57173 14.7802 3.09859 14.5747 2.57669C14.3799 2.08073 14.0868 1.6308 13.7135 1.25488C13.3402 0.878951 12.8948 0.58508 12.4049 0.391544C11.8364 0.162972 11.2769 0.0692581 10.2127 0.0243058C9.41993 -0.00921805 5.95118 -0.00769422 4.94543 0.0265915ZM10.1137 1.39573C10.5052 1.41173 10.9709 1.44678 11.1487 1.47345C12.2722 1.64107 13.0334 2.24145 13.3687 3.22431C13.5832 3.85059 13.6132 4.30012 13.6357 7.12526C13.6604 10.3451 13.6117 11.3165 13.3934 11.9626C13.0694 12.9256 12.3569 13.523 11.2964 13.7226C10.7819 13.8194 10.3552 13.8354 7.91018 13.8514C4.63943 13.8727 3.95018 13.8392 3.29018 13.6289C2.28968 13.3104 1.67393 12.5698 1.48043 11.4529C1.38218 10.8883 1.36268 10.2254 1.36193 7.4605C1.36043 4.67269 1.37543 4.22392 1.48268 3.69973C1.65593 2.85173 2.07593 2.22545 2.72918 1.84145C3.05393 1.65021 3.63443 1.48945 4.17968 1.43992C4.89968 1.37364 8.85593 1.34469 10.1137 1.39573ZM11.3332 2.64754C10.7632 2.73745 10.4279 3.40107 10.6844 3.93212C10.8899 4.35573 11.3542 4.54697 11.8027 4.39231C12.0037 4.32297 12.2669 4.05554 12.3352 3.85135C12.384 3.69836 12.3949 3.5355 12.3669 3.37721C12.3389 3.21892 12.2729 3.0701 12.1747 2.94393C12.0697 2.81364 11.7682 2.65593 11.5904 2.6384C11.5046 2.63209 11.4184 2.63516 11.3332 2.64754ZM6.83843 3.76069C6.05674 3.89859 5.33697 4.2811 4.77968 4.85478C4.03793 5.60602 3.65543 6.54392 3.65543 7.6144C3.65543 8.67878 4.03868 9.61973 4.77968 10.3717C5.22893 10.8289 5.68118 11.1138 6.27518 11.3157C6.68993 11.4567 7.04093 11.5138 7.49543 11.5138C8.00059 11.5198 8.50169 11.4217 8.96847 11.2254C9.43525 11.0291 9.858 10.7387 10.2112 10.3717C10.9544 9.61745 11.3354 8.68107 11.3354 7.61135C11.3354 6.55535 10.9522 5.60754 10.2262 4.8685C10.0757 4.71433 9.9151 4.57076 9.74543 4.43878C9.26068 4.09494 8.70776 3.86298 8.12543 3.75916C7.69823 3.70214 7.2655 3.70265 6.83843 3.76069ZM7.99943 5.13135C8.56085 5.24996 9.06488 5.56151 9.42663 6.0135C9.78837 6.4655 9.98572 7.03034 9.98543 7.61288C9.98692 7.94548 9.92353 8.27509 9.79893 8.58267C9.67432 8.89025 9.49096 9.1697 9.25945 9.40489C9.02793 9.64008 8.75285 9.82635 8.45007 9.95294C8.1473 10.0795 7.82284 10.1439 7.49543 10.1424C6.9177 10.1444 6.35736 9.94175 5.91083 9.56935C5.4643 9.19694 5.15952 8.67807 5.04893 8.10202C4.98293 7.76907 5.00243 7.23878 5.09393 6.91726C5.22187 6.47705 5.46329 6.07958 5.79321 5.76599C6.12314 5.4524 6.52957 5.23408 6.97043 5.13364C7.31078 5.07307 7.65883 5.0723 7.99943 5.13135Z"
-                                    fill="#171717"
-                                />
-                            </svg>
-                        </a>
-                        <a href="#" class="icon-shape icon-30 bg-card border-300 rounded-4 hover-up">
-                            <svg class="dark-mode-invert" xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.4695 0.29272C13.0722 0.45406 13.5459 0.92772 13.7073 1.53045C13.9988 2.62182 14 4.90022 14 4.90022C14 4.90022 14 7.17859 13.7073 8.26999C13.5459 8.87279 13.0722 9.34639 12.4695 9.50769C11.3782 9.80049 6.99998 9.80049 6.99998 9.80049C6.99998 9.80049 2.62183 9.80049 1.53045 9.50769C0.92773 9.34639 0.45407 8.87279 0.29272 8.26999C-2.98023e-08 7.17859 0 4.90022 0 4.90022C0 4.90022 -2.98023e-08 2.62182 0.29272 1.53045C0.45407 0.92772 0.92773 0.45406 1.53045 0.29272C2.62183 8.9407e-08 6.99998 0 6.99998 0C6.99998 0 11.3782 8.9407e-08 12.4695 0.29272ZM9.2362 4.90045L5.59906 7.00019V2.80067L9.2362 4.90045Z" fill="#171717" />
-                            </svg>
-                        </a>
-                    </div>
-                    <p class="text-500 m-0 mt-5">© 2025 <span class="text-dark">Foks</span>. All Rights Reserved.</p>
+    </main>
+    <!-- prettier-ignore -->
+    <!-- Footer -->
+<footer>
+    <div class="section-footer-4 overflow-hidden">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <p class="fs-8 fw-bold text-uppercase mb-2">Most comments</p>
+                    <ul class="list-unstyled ps-0">
+                        <li class="mb-3 hover-up">
+                            <div class="pb-2 border-bottom">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <span class="badge-number me-3 align-self-start">1</span>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <h6 class="mb-1 hover-underline">
+                                            <a href="single-1.html" class="text-truncate-2"><span class="card-title fs-6"> Beneath the soil, seeds whisper about another day </span> </a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="mb-3 hover-up">
+                            <div class="pb-2 border-bottom">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <span class="badge-number me-3 align-self-start">2</span>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <h6 class="mb-1 hover-underline">
+                                            <a href="single-2.html" class="text-truncate-2"><span class="card-title fs-6"> The sea that quietly forgets our names </span> </a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="mb-3 hover-up">
+                            <div class="pb-2 border-bottom">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <span class="badge-number me-3 align-self-start">3</span>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <h6 class="mb-1 hover-underline">
+                                            <a href="single-3.html" class="text-truncate-2"><span class="card-title fs-6"> When the mountains breathe at first dawn </span> </a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="mb-3 hover-up">
+                            <div class="pb-2">
+                                <div class="card-body d-flex">
+                                    <div>
+                                        <span class="badge-number me-3 align-self-start">4</span>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <h6 class="mb-1 hover-underline">
+                                            <a href="single-4.html" class="text-truncate-2"><span class="card-title fs-6"> How the desert softly dreams of rain </span> </a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-3 col-md-6 col-12 d-none d-md-block">
+                    <p class="fs-8 fw-bold text-uppercase mb-2">Popular Articles</p>
+                    <!-- prettier-ignore -->
+                    <div class="card-blog card-3 hover-up hover-zoom-image flex-row-reverse border-0 pt-0">
+    <div class="card-body">
+        <h6 class="mb-2 hover-underline">
+            <a href="single-5.html" class="text-truncate-2"><span class="card-title fs-7"> The last bird before the morning comes </span> </a>
+        </h6>
+        <div class="information">
+            <div class="date">
+                <span class="dot"></span>
+                <span class="text fs-8 fw-medium">Jun 13, 2025</span>
+            </div>
+        </div>
+    </div>
+    <div class="card-img-container d-inline-flex">
+        <a href="single-5.html" class="card-img size-75">
+            <img src="assets/imgs/page/img-43.webp" alt="foks" />
+        </a>
+    </div>
+</div>
+<div class="card-blog card-3 hover-up hover-zoom-image flex-row-reverse border-0 pt-0">
+    <div class="card-body">
+        <h6 class="mb-2 hover-underline">
+            <a href="single-6.html" class="text-truncate-2"><span class="card-title fs-7"> Shadows that never learned to truly hide </span> </a>
+        </h6>
+        <div class="information">
+            <div class="date">
+                <span class="dot"></span>
+                <span class="text fs-8 fw-medium">Jun 13, 2025</span>
+            </div>
+        </div>
+    </div>
+    <div class="card-img-container d-inline-flex">
+        <a href="single-6.html" class="card-img size-75">
+            <img src="assets/imgs/page/img-44.webp" alt="foks" />
+        </a>
+    </div>
+</div>
+<div class="card-blog card-3 hover-up hover-zoom-image flex-row-reverse border-0 p-0">
+    <div class="card-body">
+        <h6 class="mb-2 hover-underline">
+            <a href="single-7.html" class="text-truncate-2"><span class="card-title fs-7"> Where the river turns back into silence </span> </a>
+        </h6>
+        <div class="information">
+            <div class="date">
+                <span class="dot"></span>
+                <span class="text fs-8 fw-medium">Jun 13, 2025</span>
+            </div>
+        </div>
+    </div>
+    <div class="card-img-container d-inline-flex">
+        <a href="single-7.html" class="card-img size-75">
+            <img src="assets/imgs/page/img-49.webp" alt="foks" />
+        </a>
+    </div>
+</div>
+
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
                     <div class="row g-4 justify-content-between">
-                        <div class="col-lg-1 mt-0"></div>
-                        <div class="col-lg-3 col-md-3 col-6">
+                        <div class="col-6">
                             <p class="fs-8 fw-bold text-uppercase mb-2">Categories</p>
                             <ul class="list-unstyled ps-0">
                                 <li class="mb-3">
@@ -1668,64 +1909,111 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-lg-3 col-md-3 col-6">
-                            <p class="fs-8 fw-bold text-uppercase mb-2">Navigation</p>
-                            <ul class="list-unstyled ps-0">
+                        <div class="col-6">
+                            <ul class="list-unstyled ps-0 pt-3">
                                 <li class="mb-3">
-                                    <a class="text-dark button-effect-1" href="index.html">Home</a>
+                                    <a class="text-dark button-effect-1" href="archive-7.html">Politics</a>
                                 </li>
                                 <li class="mb-3">
-                                    <a class="text-dark button-effect-1" href="about-us.html">About us</a>
+                                    <a class="text-dark button-effect-1" href="archive-8.html">Health</a>
                                 </li>
                                 <li class="mb-3">
-                                    <a class="text-dark button-effect-1" href="page-author.html">Author posts</a>
+                                    <a class="text-dark button-effect-1" href="archive-9.html">Renewal</a>
                                 </li>
                                 <li class="mb-3">
-                                    <a class="text-dark button-effect-1" href="page-search-results.html">Search results</a>
+                                    <a class="text-dark button-effect-1" href="archive-4.html">Reflection</a>
                                 </li>
                                 <li class="mb-3">
-                                    <a class="text-dark button-effect-1" href="page-contact.html">Contact us</a>
-                                </li>
-                                <li class="mb-3">
-                                    <a class="text-dark button-effect-1" href="page-404.html">Error 404</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-6 d-none d-md-block">
-                            <p class="fs-8 fw-bold text-uppercase mb-2">Utility Pages</p>
-                            <ul class="list-unstyled ps-0">
-                                <li class="mb-3">
-                                    <a class="text-dark button-effect-1" href="archive-7.html">Style Guide</a>
-                                </li>
-                                <li class="mb-3">
-                                    <a class="text-dark button-effect-1" href="#">Private policy</a>
-                                </li>
-                                <li class="mb-3">
-                                    <a class="text-dark button-effect-1" href="#">Term & Condition</a>
-                                </li>
-                                <li class="mb-3">
-                                    <a class="text-dark button-effect-1" href="#">Subscribe</a>
-                                </li>
-                                <li class="mb-3">
-                                    <a class="text-dark button-effect-1" href="#">Advertise</a>
+                                    <a class="text-dark button-effect-1" href="archive-3.html">Wilderness</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-3 col-md-5 col-10">
+                    <p class="fs-8 fw-bold text-uppercase mb-2">Instagram</p>
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <div class="hover-up hover-zoom-image size-75 rounded-4 overflow-hidden">
+                            <a href="#" class="card-img">
+                                <img class="cover-image" src="assets/imgs/page/img-11.webp" alt="foks" />
+                            </a>
+                        </div>
+                        <div class="hover-up hover-zoom-image size-75 rounded-4 overflow-hidden">
+                            <a href="#" class="card-img">
+                                <img class="cover-image" src="assets/imgs/page/img-12.webp" alt="foks" />
+                            </a>
+                        </div>
+                        <div class="hover-up hover-zoom-image size-75 rounded-4 overflow-hidden">
+                            <a href="#" class="card-img">
+                                <img class="cover-image" src="assets/imgs/page/img-13.webp" alt="foks" />
+                            </a>
+                        </div>
+                        <div class="hover-up hover-zoom-image size-75 rounded-4 overflow-hidden">
+                            <a href="#" class="card-img">
+                                <img class="cover-image" src="assets/imgs/page/img-14.webp" alt="foks" />
+                            </a>
+                        </div>
+                        <div class="hover-up hover-zoom-image size-75 rounded-4 overflow-hidden">
+                            <a href="#" class="card-img">
+                                <img class="cover-image" src="assets/imgs/page/img-15.webp" alt="foks" />
+                            </a>
+                        </div>
+                        <div class="hover-up hover-zoom-image size-75 rounded-4 overflow-hidden">
+                            <a href="#" class="card-img">
+                                <img class="cover-image" src="assets/imgs/page/img-16.webp" alt="foks" />
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#" class="text-dark text-decoration-underline">View more on @Foks</a>
+                </div>
+            </div>
+            <div class="row pb-4 pt-4 border-top">
+                <div class="col-lg-5 col-md-7 col-12 mx-auto text-center">
+                    <a class="navbar-brand d-flex align-items-center justify-content-center gap-1" href="index.html">
+                        <img class="dark-mode-invert" src="assets/imgs/template/logo/favicon.svg" alt="Logo" />
+                        <strong class="fs-5 text-nowrap">Foks.</strong>
+                    </a>
+
+                    <p class="fs-7 text-700 mt-3 mb-3">Crafted for writers and storytellers, Oris offers a modern, timeless space where your words truly belong.</p>
+
+                    <div class="d-inline-flex group-social-icons">
+                        <a href="#" class="icon-shape icon-30 bg-card border-300 rounded-4 hover-up">
+                            <svg class="dark-mode-invert" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.00319 15.9377C12.948 15.4442 16 12.0785 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 11.8172 2.67341 15.0099 6.25 15.808V10.4303H4.5V8H6.25V6.93969C6.25 4.22193 7.28461 2.96364 9.95128 2.96364C10.4559 2.96364 11.3277 3.06264 11.6854 3.16164V5.37163C11.497 5.35247 11.168 5.34289 10.7625 5.34289C9.45307 5.34289 9 5.8379 9 7.12812V8H11.5577L11.1106 10.4303H9.00319V15.9377Z" fill="#171717" />
+                            </svg>
+                        </a>
+                        <a href="#" class="icon-shape icon-30 bg-card border-300 rounded-4 hover-up">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="icon-shape icon-30 bg-card border-300 rounded-4 hover-up">
+                            <svg class="dark-mode-invert" xmlns="http://www.w3.org/2000/svg" width="15" height="16" viewBox="0 0 15 16" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4.94543 0.0265915C3.55568 0.0738296 2.91668 0.206401 2.15918 0.604115C1.81118 0.786211 1.58768 0.95383 1.27343 1.26621C0.557932 1.98012 0.186682 2.85021 0.0539318 4.12335C0.0314318 4.33593 0.0134318 5.36907 0.00443185 6.93935C-0.0188182 10.8792 0.0396818 11.6967 0.415432 12.6491C0.619432 13.1656 0.848932 13.5199 1.24868 13.9336C1.96343 14.6742 2.81543 15.043 4.12043 15.1763C4.66418 15.2327 10.0694 15.2334 10.7204 15.1778C11.4734 15.1138 11.9392 15.0133 12.4529 14.8045C12.9599 14.5988 13.3094 14.3649 13.7174 13.9588C14.4464 13.2327 14.8094 12.3672 14.9407 11.0414C14.9962 10.4891 14.9969 4.99802 14.9422 4.33669C14.8792 3.57173 14.7802 3.09859 14.5747 2.57669C14.3799 2.08073 14.0868 1.6308 13.7135 1.25488C13.3402 0.878951 12.8948 0.58508 12.4049 0.391544C11.8364 0.162972 11.2769 0.0692581 10.2127 0.0243058C9.41993 -0.00921805 5.95118 -0.00769422 4.94543 0.0265915ZM10.1137 1.39573C10.5052 1.41173 10.9709 1.44678 11.1487 1.47345C12.2722 1.64107 13.0334 2.24145 13.3687 3.22431C13.5832 3.85059 13.6132 4.30012 13.6357 7.12526C13.6604 10.3451 13.6117 11.3165 13.3934 11.9626C13.0694 12.9256 12.3569 13.523 11.2964 13.7226C10.7819 13.8194 10.3552 13.8354 7.91018 13.8514C4.63943 13.8727 3.95018 13.8392 3.29018 13.6289C2.28968 13.3104 1.67393 12.5698 1.48043 11.4529C1.38218 10.8883 1.36268 10.2254 1.36193 7.4605C1.36043 4.67269 1.37543 4.22392 1.48268 3.69973C1.65593 2.85173 2.07593 2.22545 2.72918 1.84145C3.05393 1.65021 3.63443 1.48945 4.17968 1.43992C4.89968 1.37364 8.85593 1.34469 10.1137 1.39573ZM11.3332 2.64754C10.7632 2.73745 10.4279 3.40107 10.6844 3.93212C10.8899 4.35573 11.3542 4.54697 11.8027 4.39231C12.0037 4.32297 12.2669 4.05554 12.3352 3.85135C12.384 3.69836 12.3949 3.5355 12.3669 3.37721C12.3389 3.21892 12.2729 3.0701 12.1747 2.94393C12.0697 2.81364 11.7682 2.65593 11.5904 2.6384C11.5046 2.63209 11.4184 2.63516 11.3332 2.64754ZM6.83843 3.76069C6.05674 3.89859 5.33697 4.2811 4.77968 4.85478C4.03793 5.60602 3.65543 6.54392 3.65543 7.6144C3.65543 8.67878 4.03868 9.61973 4.77968 10.3717C5.22893 10.8289 5.68118 11.1138 6.27518 11.3157C6.68993 11.4567 7.04093 11.5138 7.49543 11.5138C8.00059 11.5198 8.50169 11.4217 8.96847 11.2254C9.43525 11.0291 9.858 10.7387 10.2112 10.3717C10.9544 9.61745 11.3354 8.68107 11.3354 7.61135C11.3354 6.55535 10.9522 5.60754 10.2262 4.8685C10.0757 4.71433 9.9151 4.57076 9.74543 4.43878C9.26068 4.09494 8.70776 3.86298 8.12543 3.75916C7.69823 3.70214 7.2655 3.70265 6.83843 3.76069ZM7.99943 5.13135C8.56085 5.24996 9.06488 5.56151 9.42663 6.0135C9.78837 6.4655 9.98572 7.03034 9.98543 7.61288C9.98692 7.94548 9.92353 8.27509 9.79893 8.58267C9.67432 8.89025 9.49096 9.1697 9.25945 9.40489C9.02793 9.64008 8.75285 9.82635 8.45007 9.95294C8.1473 10.0795 7.82284 10.1439 7.49543 10.1424C6.9177 10.1444 6.35736 9.94175 5.91083 9.56935C5.4643 9.19694 5.15952 8.67807 5.04893 8.10202C4.98293 7.76907 5.00243 7.23878 5.09393 6.91726C5.22187 6.47705 5.46329 6.07958 5.79321 5.76599C6.12314 5.4524 6.52957 5.23408 6.97043 5.13364C7.31078 5.07307 7.65883 5.0723 7.99943 5.13135Z"
+                                    fill="#171717" />
+                            </svg>
+                        </a>
+                        <a href="#" class="icon-shape icon-30 bg-card border-300 rounded-4 hover-up">
+                            <svg class="dark-mode-invert" xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.4695 0.29272C13.0722 0.45406 13.5459 0.92772 13.7073 1.53045C13.9988 2.62182 14 4.90022 14 4.90022C14 4.90022 14 7.17859 13.7073 8.26999C13.5459 8.87279 13.0722 9.34639 12.4695 9.50769C11.3782 9.80049 6.99998 9.80049 6.99998 9.80049C6.99998 9.80049 2.62183 9.80049 1.53045 9.50769C0.92773 9.34639 0.45407 8.87279 0.29272 8.26999C-2.98023e-08 7.17859 0 4.90022 0 4.90022C0 4.90022 -2.98023e-08 2.62182 0.29272 1.53045C0.45407 0.92772 0.92773 0.45406 1.53045 0.29272C2.62183 8.9407e-08 6.99998 0 6.99998 0C6.99998 0 11.3782 8.9407e-08 12.4695 0.29272ZM9.2362 4.90045L5.59906 7.00019V2.80067L9.2362 4.90045Z" fill="#171717" />
+                            </svg>
+                        </a>
+                    </div>
+                    <p class="text-500 m-0 mt-4">© 2025 <span class="text-dark">Foks</span>. All Rights Reserved.</p>
+                </div>
             </div>
         </div>
     </div>
 </footer>
-
-        <!-- Scroll top -->
+    <!-- Scroll top -->
 <div class="btn-scroll-top">
     <svg class="progress-square svg-content" width="100%" height="100%" viewBox="0 0 40 40">
         <path d="M 8 1 H 30 C 35.866 1 39 4.134 39 8 V 32 C 39 35.866 35.866 39 32 39 H 8 C 4.134 39 1 35.866 1 32 V 8 C 1 4.134 4.134 1 8 1 Z" />
     </svg>
 </div>
 
-        <!-- Libs JS -->
+    <!-- Libs JS -->
 <script src="assets/js/vendors/jquery-3.7.1.min.js"></script>
 <script src="assets/js/vendors/swiper-bundle.min.js"></script>
 <script src="assets/js/vendors/smart-stick-nav.js"></script>
@@ -1736,5 +2024,6 @@
 <!-- Theme JS -->
 <script src="assets/js/main.js"></script>
 
-    </body>
+</body>
+
 </html>
